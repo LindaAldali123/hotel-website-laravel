@@ -1,0 +1,66 @@
+/* Start contact */
+.contact {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	direction: rtl;
+	margin-top: 60px;
+	position: relative;
+}
+.contact h1{
+	
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact .container{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact .container .row .col-md-6{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contact .container .row .col-md-6 p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.contact .container .row .col-md-6 form input{
+	display: block;
+    width: 300px;
+    height: 40px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    border-image: initial;
+}
+.contact .container .row .col-md-6 form textarea{
+	display: block;
+    width: 300px;
+    height: 80px;
+    padding-right: 10px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    border-image: initial;
+    border-radius: 5px;
+}
+.contact .container input[type="submit"] {
+    color: darkcyan;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-color: darkcyan;
+}
+/* End contact */

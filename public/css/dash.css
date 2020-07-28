@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Cairo';
+    src: URL('../fonts/Cairo/Cairo-SemiBold.ttf') format('truetype');
+  }
+  body
+  {font-family: 'Cairo', sans-serif;
+  background-color: #eee;} 
+.navbar {
+    height: 250px;
+     box-shadow: 1px 1px 15px 1px rgb(177, 101, 136);
+}
+
+.bg-light {
+    background-image:  url("../img/cover.jpg");
+    background-position: center;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(103, 22, 112, 0.6);
+    z-index: 2;
+  }
+  .container-fluid {
+    position: relative;
+    z-index: 3;
+    
+  }
+  .navbar-toggler
+  {
+    background-color: #ccc;}
+
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    margin-right: 15px;
+}
+/* End navbar */
+/* Start Proerty Message */
+.container {
+  position: relative;
+  margin-top: 50px;
+}
+.propMsg {
+  text-align: right;
+  margin: 10px auto;
+  height: 550px;
+  /* overflow-y: scroll; */
+  display: block; 
+}
+
+.msgheader {
+  background-color: #008b8b;
+  height: 50px;
+}
+
+.msgheader h4 {
+text-align: center; 
+  color:white;
+  position: relative;
+  padding :10px;   
+  font-weight: bold;
+}
+.Secheader img{
+  display: inline;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Secheader h6{
+  display: inline;
+  font-weight: bold;}
+
+  .Usermail
+{color:#ccc ;margin-right:10px;}
+.lab1
+{color:gray ;margin-right:10px;}
+.img1
+{width:100%;
+height: 530;
+display: block;
+margin-bottom: 20px;
+}
+.emphasis, .reject{
+  margin-left: 15px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #fff;
+  color:#008b8b ;
+  border: 1px solid #008b8b;
+  font-weight: bold;
+}
+
+.reject:hover,.emphasis:hover{
+   background-color: #008b8b;
+  color: #fff;
+  box-shadow: 1px 1px 5px #aaa;
+}
+.day {
+  float: left;
+}
+/* End Proerty Message */
+/* Start Warning Messages */
+.warnMsg {
+  text-align: right;
+  margin: 10px auto;
+  height: 550px;
+  overflow-y: scroll;
+  display: block; 
+}
+.sendWarn
+{ margin-left: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  color:#ffa500 ;
+  border: 1px solid #ffa500;
+  font-weight: bold;}
+  .sendWarn:hover{
+    background-color: #ffa500;
+   color: #fff;
+   box-shadow: 1px 1px 5px #aaa;
+}
+  .delProp
+{ margin-left: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  color:#ff2200 ;
+  border: 1px solid #ff2200;
+  font-weight: bold;}
+  .delProp:hover{
+    background-color: #ff2200;
+   color: #fff;
+   box-shadow: 1px 1px 5px #aaa;
+}
+
+  .warnMsg section {
+    padding: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #008b8b;
+}
+
+
+.siteState {
+  background-color: #fff;
+  box-shadow: 1px 1px 10px 1px #aaa;
+  margin: auto;
+}
+
+.siteState p {
+  padding: 15px;
+}
+
+.siteState label {
+  color: #008b8b;
+  font-weight: bold;
+  font-size: 30px;
+}
+.count {
+  float: right;
+  font-weight: bold;
+  color: #1e90ff!important;
+  font-size: 20px!important;
+}
+
+/* End Warning Messages */
+/* Start Delete Propert Modal */
+#delProp ,#delConfirm{
+  text-align: center;
+  margin: auto;
+}
+#delProp h2,#delConfirm h2
+{margin: auto;}
+#delProp [type="search"]
+{width: 90%;
+border: 1px solid gray;
+height: 50px;}
+#delProp button ,#delConfirm button {
+  margin-right: 10px;
+  margin-left: 5px;
+  border: 1px solid #aaa;
+  width: 100px;
+}
+
+/* End Delete Propert Modal */
+table{
+  width:100%;
+  border: 5px solid;
+}
+table tr{
+  border:3px solid;
+}
+table th{ border:3px solid;}
+table td{ border:3px solid;}

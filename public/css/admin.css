@@ -1,0 +1,106 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    background-image: url('../img/bac2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.admin {
+    width: 75%;
+    height: 500px;
+    background-color: #fff;
+    display: block;
+    margin:auto;
+    position: relative;
+    top: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px rgb(122, 91, 209);
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+@media  only screen and (max-width:769px) {
+    .admin{
+    width: 80%;
+}}
+.admin .head{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/bac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 0px 10px 1px #aaa;
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+   
+}
+
+.admin h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.admin h1 span {
+    color: dodgerblue;
+}
+
+.container img {
+    display: block;
+    width: 360px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+form {
+    width: 350px;
+    display: block;
+    margin-top: 50px;
+}
+
+.container form input[type="email"] , .container form input[type="password"] {
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(16, 72, 128);
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 10px;
+}
+
+input[type="submit"]{
+    background-color: #fff;
+    color: dodgerblue;
+    border: 1px solid  rgb(16, 72, 128);
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+
+
+input[type="submit"]:hover{
+    color: #fff;
+    background-color: rgb(16, 72, 128);
+    transition-duration: .3s;
+    box-shadow: 1px 0px 15px 0 rgb(122, 91, 209);
+}
+
+@media only screen and (max-width:769px){
+    
+    .admin{
+        height: 650px;
+    }
+    
+    
+}
+
